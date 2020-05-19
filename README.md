@@ -1,6 +1,10 @@
 # API Automation for Mekari
 API Automation Test using Karate Framework
 
+Gherkin Style, no more steps definition layer
+
+[references](https://github.com/intuit/karate)
+
 ## Project Structure
 
 ```
