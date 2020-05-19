@@ -1,0 +1,12 @@
+<testsuite failures="0" name="src/test/java/booking/delete/deletebooking.feature" skipped="0" tests="1" time="4.664101">
+  <testcase classname="src.test.java.booking.delete.deletebooking" name="Success Delete" time="4.664101">
+    <system-out>* url baseUrl ............................................................. passed
+* def token = call read('classpath:booking/auth.feature') ................. passed
+Given path '/booking/1' ................................................... passed
+And header Content-Type = 'application/json' .............................. passed
+And cookie token = token.response.token ................................... passed
+When method DELETE ........................................................ passed
+Then status 201 ........................................................... passed
+And match response == "Created" ........................................... passed</system-out>
+  </testcase>
+</testsuite>

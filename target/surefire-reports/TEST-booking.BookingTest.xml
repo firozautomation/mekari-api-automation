@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="booking.BookingTest" time="6.036" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/haekalwiralegawa/Documents/test/api-automation/api-automation/target/test-classes:/Users/haekalwiralegawa/Documents/test/api-automation/api-automation/target/classes:/Users/haekalwiralegawa/.m2/repository/com/intuit/karate/karate-apache/0.9.5/karate-apache-0.9.5.jar:/Users/haekalwiralegawa/.m2/repository/com/intuit/karate/karate-core/0.9.5/karate-core-0.9.5.jar:/Users/haekalwiralegawa/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/haekalwiralegawa/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/haekalwiralegawa/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/haekalwiralegawa/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/haekalwiralegawa/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/haekalwiralegawa/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/haekalwiralegawa/.m2/repository/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar:/Users/haekalwiralegawa/.m2/repository/de/siegmar/fastcsv/1.0.3/fastcsv-1.0.3.jar:/Users/haekalwiralegawa/.m2/repository/info/picocli/picocli/4.0.3/picocli-4.0.3.jar:/Users/haekalwiralegawa/.m2/repository/org/apache/httpcomponents/httpclient/4.5.11/httpclient-4.5.11.jar:/Users/haekalwiralegawa/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/haekalwiralegawa/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/haekalwiralegawa/.m2/repository/org/apache/httpcomponents/httpmime/4.5.11/httpmime-4.5.11.jar:/Users/haekalwiralegawa/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/Users/haekalwiralegawa/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/haekalwiralegawa/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/haekalwiralegawa/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/haekalwiralegawa/.m2/repository/com/intuit/karate/karate-junit5/0.9.5/karate-junit5-0.9.5.jar:/Users/haekalwiralegawa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar:/Users/haekalwiralegawa/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/haekalwiralegawa/.m2/repository/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.jar:/Users/haekalwiralegawa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar:/Users/haekalwiralegawa/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/haekalwiralegawa/.m2/repository/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="ID"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/haekalwiralegawa/Documents/test/api-automation/api-automation/target/surefire/surefirebooter4184315400002480651.jar /Users/haekalwiralegawa/Documents/test/api-automation/api-automation/target/surefire 2020-05-19T14-50-44_220-jvmRun1 surefire8564312625846353420tmp surefire_0640375936112153559tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/haekalwiralegawa/Documents/test/api-automation/api-automation/target/test-classes:/Users/haekalwiralegawa/Documents/test/api-automation/api-automation/target/classes:/Users/haekalwiralegawa/.m2/repository/com/intuit/karate/karate-apache/0.9.5/karate-apache-0.9.5.jar:/Users/haekalwiralegawa/.m2/repository/com/intuit/karate/karate-core/0.9.5/karate-core-0.9.5.jar:/Users/haekalwiralegawa/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/haekalwiralegawa/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/haekalwiralegawa/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/haekalwiralegawa/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/haekalwiralegawa/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/haekalwiralegawa/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/haekalwiralegawa/.m2/repository/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar:/Users/haekalwiralegawa/.m2/repository/de/siegmar/fastcsv/1.0.3/fastcsv-1.0.3.jar:/Users/haekalwiralegawa/.m2/repository/info/picocli/picocli/4.0.3/picocli-4.0.3.jar:/Users/haekalwiralegawa/.m2/repository/org/apache/httpcomponents/httpclient/4.5.11/httpclient-4.5.11.jar:/Users/haekalwiralegawa/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/haekalwiralegawa/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/haekalwiralegawa/.m2/repository/org/apache/httpcomponents/httpmime/4.5.11/httpmime-4.5.11.jar:/Users/haekalwiralegawa/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/Users/haekalwiralegawa/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/haekalwiralegawa/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/haekalwiralegawa/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/haekalwiralegawa/.m2/repository/com/intuit/karate/karate-junit5/0.9.5/karate-junit5-0.9.5.jar:/Users/haekalwiralegawa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar:/Users/haekalwiralegawa/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/haekalwiralegawa/.m2/repository/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.jar:/Users/haekalwiralegawa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar:/Users/haekalwiralegawa/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/haekalwiralegawa/.m2/repository/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/haekalwiralegawa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/haekalwiralegawa/Documents/test/api-automation/api-automation"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/haekalwiralegawa/Documents/test/api-automation/api-automation/target/surefire/surefirebooter4184315400002480651.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="user.name" value="haekalwiralegawa"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.4"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/haekalwiralegawa/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/wj/rj5pkjfx5bzbzzhkgj2lp6nh0000gn/T/"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="user.dir" value="/Users/haekalwiralegawa/Documents/test/api-automation/api-automation"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/haekalwiralegawa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.ext.dirs" value="/Users/haekalwiralegawa/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testAll[1][1]" classname="booking.BookingTest" time="2.834">
+    <failure message="deletebooking.feature:11 - status code was: 405, expected: 201, response time: 830, url: https://restful-booker.herokuapp.com/booking/1, response: Method Not Allowed" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: deletebooking.feature:11 - status code was: 405, expected: 201, response time: 830, url: https://restful-booker.herokuapp.com/booking/1, response: Method Not Allowed
+</failure>
+    <system-out><![CDATA[14:50:50.443 [main] INFO  com.intuit.karate - karate.env system property was:  
+14:50:50.815 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_144)
+{"username":"admin","password":"password123"}
+
+14:50:52.226 [main] DEBUG com.intuit.karate - response time in milliseconds: 1408.39
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 19 May 2020 07:50:52 GMT
+1 < Etag: W/"1b-4/pU3JfEiyHBwI+up3YmI+ir/UA"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"794edc1b6b9351e"}
+
+14:50:52.240 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://restful-booker.herokuapp.com/booking/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Cookie: token=794edc1b6b9351e
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_144)
+
+14:50:53.070 [main] DEBUG com.intuit.karate - response time in milliseconds: 829.76
+1 < 405
+1 < Connection: keep-alive
+1 < Content-Length: 18
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Tue, 19 May 2020 07:50:52 GMT
+1 < Etag: W/"12-UGJMK66P4abaBlq0vKHJaCKuGCA"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+Method Not Allowed
+
+14:50:53.071 [main] ERROR com.intuit.karate - status code was: 405, expected: 201, response time: 830, url: https://restful-booker.herokuapp.com/booking/1, response: Method Not Allowed
+---------------------------------------------------------
+feature: classpath:booking/delete/deletebooking.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 2.5713
+---------------------------------------------------------
+
+HTML report: (paste into browser to view) | Karate version: 0.9.5
+file:/Users/haekalwiralegawa/Documents/test/api-automation/api-automation/target/surefire-reports/booking.delete.deletebooking.html
+---------------------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="testAll[2][1]" classname="booking.BookingTest" time="1.698"/>
+  <testcase name="testAll[3][1]" classname="booking.BookingTest" time="0.922"/>
+</testsuite>

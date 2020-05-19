@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: booking.BookingTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.036 s <<< FAILURE! - in booking.BookingTest
+testAll[1][1]  Time elapsed: 2.834 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: deletebooking.feature:11 - status code was: 405, expected: 201, response time: 830, url: https://restful-booker.herokuapp.com/booking/1, response: Method Not Allowed
+

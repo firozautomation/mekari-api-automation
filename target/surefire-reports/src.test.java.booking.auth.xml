@@ -1,0 +1,10 @@
+<testsuite failures="0" name="src/test/java/booking/auth.feature" skipped="0" tests="1" time="6.36703">
+  <testcase classname="src.test.java.booking.auth" name="auth success" time="6.36703">
+    <system-out>* url 'https://restful-booker.herokuapp.com' .............................. passed
+Given path '/auth' ........................................................ passed
+And header Content-Type = 'application/json' .............................. passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

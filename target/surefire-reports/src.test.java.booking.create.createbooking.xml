@@ -1,0 +1,13 @@
+<testsuite failures="0" name="src/test/java/booking/create/createbooking.feature" skipped="0" tests="1" time="1.758144">
+  <testcase classname="src.test.java.booking.create.createbooking" name="Success Create Booking" time="1.758144">
+    <system-out>* url baseUrl ............................................................. passed
+* def requestBody = read('classpath:booking/create/req_create_booking.json') . passed
+Given path '/booking' ..................................................... passed
+And header Content-Type = 'application/json' .............................. passed
+And header Accept = 'application/json' .................................... passed
+And request requestBody ................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And match response.booking == read('classpath:booking/create/res_create_booking.json') . passed</system-out>
+  </testcase>
+</testsuite>
